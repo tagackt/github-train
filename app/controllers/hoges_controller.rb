@@ -5,6 +5,7 @@ class HogesController < ApplicationController
 
   def index
     @hoges = Hoge.all
+
     respond_with(@hoges)
   end
 
