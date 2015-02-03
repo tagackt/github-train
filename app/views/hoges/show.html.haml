@@ -1,0 +1,9 @@
+%p#notice= notice
+
+%p
+  %b Name:
+  = @hoge.name
+
+= link_to 'Edit', edit_hoge_path(@hoge)
+\|
+= link_to 'Back', hoges_path
